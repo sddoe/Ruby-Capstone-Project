@@ -3,6 +3,6 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'dotenv'
 Dotenv.load
 
-require 'main'
+require 'exercise_bot_ruby'
 
-Main::Bot.run
+ExerciseBotRuby::Bot.run
