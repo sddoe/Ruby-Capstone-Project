@@ -1,24 +1,22 @@
-require 'rss'
-require 'open-uri'
+require 'json'
 
-module ExerciseBotRuby
-  module Commands
-    class GetExercise < SlackRubyBot::Commands::Base
-      command 'get_next_exercise' do |client, data, _match|
-        url = 'https://www.overstellar.se/random-exercise/'
-        rss = RSS:Parser.parse(open(url).read, false).items.first
-        client.say(channel: data.channel, text: rss.link)
-      end
+class Parser
+  attr_reader :data
+  
+  def initialize
+    @data = File.read('story.json')
+  end
 
-      command 'say_hello' do |client, data, _match|
-        client.say(channel: data.channel, text: HelloText.say_hello)
+  def reply(message)
+    json = JSON.parse(@data)
+    json['data'].each do |i|
+      i['turns'].each do |j|
+        next if j['user'] != message
+        j['operations'].each do |k|
+          return k['action']
+        end
       end
     end
-  end
-end
-
-class HelloText
-  def self.say_hello
-    'Hello! This is a Bot!'
+    'Sorry, I cant understand that command, for support please administrator'
   end
 end
