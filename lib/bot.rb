@@ -1,6 +1,6 @@
 require 'discordrb'
 require 'dotenv'
-require_relative 'get_exercise.rb'
+require_relative '../commands/get_exercise'
 
 class ExerciseBot
   private
