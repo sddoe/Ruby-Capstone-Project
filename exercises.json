@@ -1,0 +1,232 @@
+{
+  "data" : [
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "hello",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Greeting\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : "Hello! Get ready to exercise!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "hi",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Greeting\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Hello! Get ready to exercise!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "I'm ready",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #1\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Let's start with High Knees. Do it for 20 seconds!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Ready",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #2\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Let's start with Lunges. Repeat 20 times!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Hit me",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #3\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Let's start with Squats. Repeat 20 times!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Let's do it",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #4\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Let's start with Crab Walk. Do it for 20 seconds!!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Another one",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #5\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Let's continue! Calf Raise. Repeat 20 times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Second round",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #6\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Let's continue! Side Leg Raises. Repeat 20 times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Let's do it",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #7\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : "Let's burn some fat! Wall Pushups. Repeat 20 times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "I want to move",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #8\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Are you ready for this?! Jump squats. Repeat 20 times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "Want something random",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #9\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Let's keep it moving! Knee to Elbow. Repeat 20 times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "turns" : [
+        {
+          "user" : "A last one",
+          "entities" : [
+            {
+              "entity" : "intent",
+              "value" : "\"Exercise #10\""
+            }
+          ],
+          "operations" : [
+            {
+              "action" : " Almost there! Squats. Repeat 20 times"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
