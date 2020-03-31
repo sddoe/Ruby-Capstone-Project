@@ -4,7 +4,7 @@ class Parser
   attr_reader :data
   
   def initialize
-    @data = File.read('story.json')
+    @data = File.read('exercises.json')
   end
 
   def reply(message)
@@ -12,6 +12,7 @@ class Parser
     json['data'].each do |i|
       i['turns'].each do |j|
         next if j['user'] != message
+        
         j['operations'].each do |k|
           return k['action']
         end
