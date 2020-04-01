@@ -1,5 +1,4 @@
-require 'lib/commands/get_exercise'
-require 'lib/bot'
+require_relative '../lib/bot.rb'
 
 bot = Bot.new
 bot.run_bot
