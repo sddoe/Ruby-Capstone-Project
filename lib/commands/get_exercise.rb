@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-require 'json'
-
-class Parser
-  attr_reader :data
-  
-  def initialize
-    @data = File.read('exercises.json')
-  end
-
-  def reply(message)
-    json = JSON.parse(@data)
-    json['data'].each do |i|
-      i['turns'].each do |j|
-        next if j['user'] != message
-        
-        j['operations'].each do |k|
-          return k['action']
-        end
-      end
-    end
-    'Sorry, I cant understand that command, for support please administrator'
-=======
 module SlackExercisebot
   module Commands
     class GetExercise < SlackRubyBot::Commands::Base
@@ -58,6 +35,5 @@ module SlackExercisebot
         client.say(channel: data.channel, text: 'Almost there! Squats. Repeat 20 times')
       end
     end
->>>>>>> 31e92a8da951cca660d4a76e68fe6200a3015c9d
   end
 end
