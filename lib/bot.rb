@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'discordrb'
 require 'dotenv'
 require_relative '../commands/get_exercise'
@@ -24,5 +25,9 @@ class ExerciseBot
       event.respond reply event.content
     end
     @exercise_bot.run
+=======
+module SlackExercisebot
+  class Bot < SlackRubyBot::Bot
+>>>>>>> 31e92a8da951cca660d4a76e68fe6200a3015c9d
   end
 end
