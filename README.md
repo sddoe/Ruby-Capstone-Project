@@ -23,7 +23,7 @@ This is a Slack Bot built in ruby, where you can talk to the exercisebot with a 
 - Exercise1 to Exercise10
 
 ## Live Video Presentation
-[Video Demo]()
+[Video Demo](https://www.loom.com/share/df0a7b7978cf453bbef07880ab916f45)
 
 👤 **Author**
 
