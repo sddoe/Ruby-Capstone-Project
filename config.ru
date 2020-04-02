@@ -3,8 +3,8 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'dotenv'
 Dotenv.load
 
-require 'exercise_bot_ruby'
-require 'web'
+require 'bin/exercise_bot_ruby'
+require_relative 'web'
 
 Thread.abort_on_exception = true
 
